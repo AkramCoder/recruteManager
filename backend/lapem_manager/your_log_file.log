@@ -1,0 +1,634 @@
+INFO 2023-10-12 02:03:48,629 autoreload Watching for file changes with StatReloader
+INFO 2023-10-12 02:08:06,559 autoreload C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\user\serializers.py changed, reloading.
+INFO 2023-10-12 02:08:08,528 autoreload Watching for file changes with StatReloader
+INFO 2023-10-12 02:08:36,086 autoreload C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\user\serializers.py changed, reloading.
+INFO 2023-10-12 02:08:37,566 autoreload Watching for file changes with StatReloader
+ERROR 2023-10-12 02:08:59,970 serializers An error occurred: 'utf-8' codec can't decode byte 0xfc in position 1: invalid start byte. You passed in b'n\xfciv\x1f\x9f\xe1\xbf4\xdb\xdd\xbd\xd1\xbd}\xe3\xce\xfas\xaft\xd1\xde\xb6\xd7F\xdb\xef\x97' (<class 'bytes'>)
+WARNING 2023-10-12 02:08:59,973 log Unauthorized: /user/api/password-reset-complete/
+INFO 2023-10-12 02:11:13,562 autoreload C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\user\serializers.py changed, reloading.
+INFO 2023-10-12 02:11:14,991 autoreload Watching for file changes with StatReloader
+ERROR 2023-10-12 02:11:37,268 serializers An error occurred: 'str' object has no attribute 'decode'
+WARNING 2023-10-12 02:11:37,270 log Unauthorized: /user/api/password-reset-complete/
+INFO 2023-10-12 02:14:14,239 autoreload C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\user\serializers.py changed, reloading.
+INFO 2023-10-12 02:14:16,008 autoreload Watching for file changes with StatReloader
+ERROR 2023-10-12 02:14:31,371 serializers An error occurred: 'utf-8' codec can't decode byte 0xfc in position 1: invalid start byte
+WARNING 2023-10-12 02:14:31,373 log Unauthorized: /user/api/password-reset-complete/
+WARNING 2023-10-12 02:19:49,759 log Bad Request: /user/api/auth/token/refresh/
+WARNING 2023-10-12 02:19:49,769 log Bad Request: /user/api/auth/token/refresh/
+WARNING 2023-10-12 02:21:09,425 log Not Found: /user/managersDetails/undefined
+WARNING 2023-10-12 02:21:09,440 log Not Found: /user/managersDetails/undefined
+WARNING 2023-10-12 02:21:24,211 log Unauthorized: /user/api/auth/token/refresh/
+WARNING 2023-10-12 02:21:24,774 log Not Found: /user/managersDetails/undefined
+WARNING 2023-10-12 02:21:24,820 log Not Found: /user/managersDetails/undefined
+WARNING 2023-10-12 02:23:14,777 log Unauthorized: /user/api/auth/token/refresh/
+WARNING 2023-10-12 14:54:53,070 log Bad Request: /user/api/users/
+WARNING 2023-10-12 14:54:53,263 log Not Found: /user/api/update-user/
+WARNING 2023-10-12 14:56:55,809 log Bad Request: /user/api/auth/token/refresh/
+WARNING 2023-10-12 14:56:55,814 log Bad Request: /user/api/auth/token/refresh/
+WARNING 2023-10-12 14:57:05,598 log Bad Request: /user/api/auth/token/refresh/
+WARNING 2023-10-12 14:57:05,601 log Bad Request: /user/api/auth/token/refresh/
+WARNING 2023-10-12 15:03:13,115 log Not Found: /company/company/
+WARNING 2023-10-12 15:03:13,160 log Not Found: /user/managersDetails/undefined
+WARNING 2023-10-12 15:03:13,198 log Not Found: /company/company/
+WARNING 2023-10-12 15:03:13,223 log Not Found: /user/managersDetails/undefined
+WARNING 2023-10-12 15:03:13,432 log Not Found: /company/company/
+WARNING 2023-10-12 15:03:34,775 log Unauthorized: /user/api/auth/token/refresh/
+WARNING 2023-10-12 15:03:35,192 log Not Found: /user/managersDetails/undefined
+WARNING 2023-10-12 15:03:35,220 log Not Found: /user/managersDetails/undefined
+WARNING 2023-10-12 15:04:22,124 log Not Found: /user/api/get-cvs-for-candidates//
+WARNING 2023-10-12 15:04:22,139 log Not Found: /user/api/get-cvs-for-candidates//
+WARNING 2023-10-12 15:05:54,525 log Bad Request: /user/api/users/
+WARNING 2023-10-12 15:05:54,708 log Not Found: /user/api/update-user/
+WARNING 2023-10-12 15:06:13,635 log Not Found: /user/managersDetails/undefined
+WARNING 2023-10-12 15:06:13,672 log Not Found: /user/managersDetails/undefined
+ERROR 2023-10-12 15:08:08,438 log Internal Server Error: /company/companyoffers/
+Traceback (most recent call last):
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\generics.py", line 239, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\company\views.py", line 222, in get_queryset
+    return self.queryset.filter(company = self.request.user.company)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\fields\related_descriptors.py", line 421, in __get__
+    raise self.RelatedObjectDoesNotExist(
+user.models.CustomUser.company.RelatedObjectDoesNotExist: CustomUser has no company.
+ERROR 2023-10-12 15:08:08,635 log Internal Server Error: /company/companyoffers/
+Traceback (most recent call last):
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\generics.py", line 239, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\company\views.py", line 222, in get_queryset
+    return self.queryset.filter(company = self.request.user.company)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\fields\related_descriptors.py", line 421, in __get__
+    raise self.RelatedObjectDoesNotExist(
+user.models.CustomUser.company.RelatedObjectDoesNotExist: CustomUser has no company.
+WARNING 2023-10-12 15:08:16,055 log Not Found: /user/managersDetails/undefined
+WARNING 2023-10-12 15:08:16,086 log Not Found: /user/managersDetails/undefined
+ERROR 2023-10-12 15:08:16,209 log Internal Server Error: /company/companyoffers/
+Traceback (most recent call last):
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\generics.py", line 239, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\company\views.py", line 222, in get_queryset
+    return self.queryset.filter(company = self.request.user.company)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\fields\related_descriptors.py", line 421, in __get__
+    raise self.RelatedObjectDoesNotExist(
+user.models.CustomUser.company.RelatedObjectDoesNotExist: CustomUser has no company.
+ERROR 2023-10-12 15:08:16,450 log Internal Server Error: /company/companyoffers/
+Traceback (most recent call last):
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\generics.py", line 239, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\company\views.py", line 222, in get_queryset
+    return self.queryset.filter(company = self.request.user.company)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\fields\related_descriptors.py", line 421, in __get__
+    raise self.RelatedObjectDoesNotExist(
+user.models.CustomUser.company.RelatedObjectDoesNotExist: CustomUser has no company.
+ERROR 2023-10-12 15:08:24,890 log Internal Server Error: /user/candidateCompanylist/
+Traceback (most recent call last):
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\generics.py", line 239, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\user\views.py", line 489, in get_queryset
+    return self.queryset.filter(company = self.request.user.company)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\fields\related_descriptors.py", line 421, in __get__
+    raise self.RelatedObjectDoesNotExist(
+user.models.CustomUser.company.RelatedObjectDoesNotExist: CustomUser has no company.
+ERROR 2023-10-12 15:08:25,048 log Internal Server Error: /user/candidateCompanylist/
+Traceback (most recent call last):
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\generics.py", line 239, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\user\views.py", line 489, in get_queryset
+    return self.queryset.filter(company = self.request.user.company)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\fields\related_descriptors.py", line 421, in __get__
+    raise self.RelatedObjectDoesNotExist(
+user.models.CustomUser.company.RelatedObjectDoesNotExist: CustomUser has no company.
+WARNING 2023-10-12 15:16:05,585 log Bad Request: /user/api/create-custom-user/
+WARNING 2023-10-12 15:17:29,541 log Bad Request: /user/api/create-custom-user/
+WARNING 2023-10-12 15:23:37,438 log Bad Request: /user/api/create-custom-user/
+WARNING 2023-10-12 15:25:39,191 log Bad Request: /user/api/create-custom-user/
+ERROR 2023-10-12 15:26:13,298 log Internal Server Error: /user/api/get-cvs-for-candidates/12,13,14,15/
+Traceback (most recent call last):
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\user\views.py", line 500, in get
+    cv = Cv.objects.get(candidate=candidate_id)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+user.models.Cv.DoesNotExist: Cv matching query does not exist.
+ERROR 2023-10-12 15:26:13,540 log Internal Server Error: /user/api/get-cvs-for-candidates/12,13,14,15/
+Traceback (most recent call last):
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\user\views.py", line 500, in get
+    cv = Cv.objects.get(candidate=candidate_id)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+user.models.Cv.DoesNotExist: Cv matching query does not exist.
+ERROR 2023-10-12 15:26:19,846 log Internal Server Error: /user/api/get-cvs-for-candidates/12,13,14,15/
+Traceback (most recent call last):
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\user\views.py", line 500, in get
+    cv = Cv.objects.get(candidate=candidate_id)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+user.models.Cv.DoesNotExist: Cv matching query does not exist.
+ERROR 2023-10-12 15:26:19,996 log Internal Server Error: /user/api/get-cvs-for-candidates/12,13,14,15/
+Traceback (most recent call last):
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\user\views.py", line 500, in get
+    cv = Cv.objects.get(candidate=candidate_id)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+user.models.Cv.DoesNotExist: Cv matching query does not exist.
+INFO 2023-10-12 15:27:05,949 autoreload Watching for file changes with StatReloader
+ERROR 2023-10-12 15:27:41,737 log Internal Server Error: /user/api/get-cvs-for-candidates/12,13,14,15/
+Traceback (most recent call last):
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\user\views.py", line 500, in get
+    cv = Cv.objects.get(candidate=candidate_id)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+user.models.Cv.DoesNotExist: Cv matching query does not exist.
+ERROR 2023-10-12 15:27:41,983 log Internal Server Error: /user/api/get-cvs-for-candidates/12,13,14,15/
+Traceback (most recent call last):
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\user\views.py", line 500, in get
+    cv = Cv.objects.get(candidate=candidate_id)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+user.models.Cv.DoesNotExist: Cv matching query does not exist.
+WARNING 2023-10-12 15:29:27,041 log Unauthorized: /user/api/auth/token/refresh/
+ERROR 2023-10-12 15:29:45,433 log Internal Server Error: /user/api/get-cvs-for-candidates/12,13,14,15/
+Traceback (most recent call last):
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\user\views.py", line 500, in get
+    cv = Cv.objects.get(candidate=candidate_id)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+user.models.Cv.DoesNotExist: Cv matching query does not exist.
+ERROR 2023-10-12 15:29:45,668 log Internal Server Error: /user/api/get-cvs-for-candidates/12,13,14,15/
+Traceback (most recent call last):
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\user\views.py", line 500, in get
+    cv = Cv.objects.get(candidate=candidate_id)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+user.models.Cv.DoesNotExist: Cv matching query does not exist.
+WARNING 2023-10-12 15:30:41,993 log Bad Request: /user/api/auth/token/refresh/
+WARNING 2023-10-12 15:30:41,996 log Bad Request: /user/api/auth/token/refresh/
+WARNING 2023-10-12 15:31:58,989 log Unauthorized: /user/api/auth/token/refresh/
+ERROR 2023-10-12 15:31:59,897 log Internal Server Error: /user/api/get-cvs-for-candidates/12,13,14,15/
+Traceback (most recent call last):
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\user\views.py", line 500, in get
+    cv = Cv.objects.get(candidate=candidate_id)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+user.models.Cv.DoesNotExist: Cv matching query does not exist.
+ERROR 2023-10-12 15:32:00,046 log Internal Server Error: /user/api/get-cvs-for-candidates/12,13,14,15/
+Traceback (most recent call last):
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\user\views.py", line 500, in get
+    cv = Cv.objects.get(candidate=candidate_id)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+user.models.Cv.DoesNotExist: Cv matching query does not exist.
+ERROR 2023-10-12 15:35:24,633 log Internal Server Error: /user/api/get-cvs-for-candidates/12,13,14,15/
+Traceback (most recent call last):
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\user\views.py", line 500, in get
+    cv = Cv.objects.get(candidate=candidate_id)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+user.models.Cv.DoesNotExist: Cv matching query does not exist.
+ERROR 2023-10-12 15:35:24,769 log Internal Server Error: /user/api/get-cvs-for-candidates/12,13,14,15/
+Traceback (most recent call last):
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\user\views.py", line 500, in get
+    cv = Cv.objects.get(candidate=candidate_id)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+user.models.Cv.DoesNotExist: Cv matching query does not exist.
+ERROR 2023-10-12 15:35:39,610 log Internal Server Error: /user/api/get-cvs-for-candidates/12,13,14,15/
+Traceback (most recent call last):
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\user\views.py", line 500, in get
+    cv = Cv.objects.get(candidate=candidate_id)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+user.models.Cv.DoesNotExist: Cv matching query does not exist.
+ERROR 2023-10-12 15:35:39,780 log Internal Server Error: /user/api/get-cvs-for-candidates/12,13,14,15/
+Traceback (most recent call last):
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\user\views.py", line 500, in get
+    cv = Cv.objects.get(candidate=candidate_id)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+user.models.Cv.DoesNotExist: Cv matching query does not exist.
+WARNING 2023-10-12 15:36:58,208 log Unauthorized: /user/api/auth/token/refresh/
+WARNING 2023-10-12 15:37:25,656 log Not Found: /user/managersDetails/undefined
+WARNING 2023-10-12 15:37:25,692 log Not Found: /user/managersDetails/undefined
+INFO 2023-10-18 19:31:00,698 autoreload Watching for file changes with StatReloader
+WARNING 2023-10-18 19:31:46,874 log Bad Request: /user/api/auth/token/refresh/
+WARNING 2023-10-18 19:31:46,875 log Bad Request: /user/api/auth/token/refresh/
+INFO 2023-10-18 19:34:33,399 autoreload C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\user\textType.py changed, reloading.
+INFO 2023-10-18 19:34:35,407 autoreload Watching for file changes with StatReloader
+WARNING 2023-10-18 19:34:56,722 log Bad Request: /user/api/auth/token/refresh/
+WARNING 2023-10-18 19:34:56,723 log Bad Request: /user/api/auth/token/refresh/
+WARNING 2023-10-18 19:35:13,604 log Not Found: /user/managersDetails/undefined
+WARNING 2023-10-18 19:35:13,616 log Not Found: /user/managersDetails/undefined
+ERROR 2023-10-18 19:35:18,851 log Internal Server Error: /user/api/get-cvs-for-candidates/12,13,14,15/
+Traceback (most recent call last):
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\user\views.py", line 501, in get
+    cv = Cv.objects.get(candidate=candidate_id)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+user.models.Cv.DoesNotExist: Cv matching query does not exist.
+ERROR 2023-10-18 19:35:18,967 log Internal Server Error: /user/api/get-cvs-for-candidates/12,13,14,15/
+Traceback (most recent call last):
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\user\views.py", line 501, in get
+    cv = Cv.objects.get(candidate=candidate_id)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\XPS\Downloads\lapem_manager_app-main-master (1)\lapem_manager_app-main-master\backend_\lib\site-packages\django\db\models\query.py", line 435, in get
+    raise self.model.DoesNotExist(
+user.models.Cv.DoesNotExist: Cv matching query does not exist.
+WARNING 2023-10-18 19:37:47,514 log Bad Request: /user/process-text/
+WARNING 2023-10-18 19:38:31,653 log Bad Request: /user/process-text/
+WARNING 2023-10-18 19:38:54,034 log Bad Request: /user/process-text/
+WARNING 2023-10-18 19:41:12,432 log Bad Request: /user/process-text/
+WARNING 2023-10-18 19:41:34,081 log Unauthorized: /user/api/auth/token/refresh/
+WARNING 2023-10-18 19:43:28,552 log Bad Request: /user/process-text/

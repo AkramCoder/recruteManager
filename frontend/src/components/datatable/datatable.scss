@@ -1,0 +1,163 @@
+.datatable {
+    height: 500px;
+    padding: 20px;
+}
+.datatableTitle {
+    width: 100%;
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .link {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 5px;
+        cursor: pointer;
+        width: 150px;
+        padding: 10px;
+        border: 1px solid;
+        background-color: white;
+        color: teal;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 10px;
+
+        &:hover {
+            background-color: teal;
+            color: white;
+        }
+    }
+}
+
+.cellAction {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    .viewButton {
+        padding: 2px 5px;
+        color: darkblue;
+        border: 1px dotted rgba(0, 0, 139, 0.596);
+        cursor: pointer;
+
+        &:hover {
+            background-color: teal;
+            color: white;
+        }
+    }
+
+    .deleteButton {
+        padding: 2px 5px;
+        border-radius: 5px;
+        color: crimson;
+        border: 1px dotted rgba(220, 20, 60, 0.6);
+        cursor: pointer;
+    }
+}
+.cellwithstatus {
+    padding: 5px;
+    border-radius: 5px;
+
+    &.true {
+        background-color: rgba(0,128,0,0.05);
+        color: green;
+    }
+
+    &.false {
+        background-color: rgba(0,128,0,0.05);
+        color: goldenrod;
+    }
+
+}
+.celletat {
+    padding: 5px;
+    border-radius: 5px;
+
+    &.nonurgent {
+        color: green;
+    }
+
+    &.urgent {
+        color: red;
+    }
+}
+
+.lien {
+    text-decoration-color: #7451f8;
+    color: #7451f8;
+    font-size: 13px;
+}
+.actionslist {
+    display: block;
+    list-style: none;
+}
+li {
+    display:inline;
+    padding: 10px;
+}
+
+.widget {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 10px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    border-radius: 10px;
+    height: 100px;
+    width:200px;
+    
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.widgettitle {
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(160, 160, 160);
+}
+
+.counter {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.link {
+    width: max-content;
+    font-size: 10px;
+    border-bottom: 0.1px solid gray;
+    text-decoration: none;
+    color: gray;
+}
+
+.percentage {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.percentage .positive {
+    color: green;
+}
+
+.percentage .negative {
+    color: red;
+}
+
+
+.iconwidget {
+    font-size: 28px;
+    padding: 5px;
+    border-radius: 5px;
+    align-self: flex-end;
+}
+
+

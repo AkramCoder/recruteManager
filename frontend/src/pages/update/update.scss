@@ -1,0 +1,82 @@
+
+.single {
+    display: flex;
+    width: 100%;
+    font-size:13px;
+    
+    }
+.singleContainer
+{
+    flex: 6;
+
+}
+form {
+    margin:50px;
+    font-size:15px;
+}
+Col {
+width:40%;
+}
+
+.newbutton {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.newtop, .newbottom {
+    position: relative;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+
+    .back {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        padding: 5px;
+        font-size: 12px;
+        color: #7451f8;
+        background-color: #7551f818;
+        cursor: pointer;
+        border-radius: 0px 0px 0px 5px;
+    }
+}
+
+.newtop_list{
+    display: flex;
+    width: 100%;
+}
+
+.left-padding {
+    width: 50%;
+    padding: 5px !important;
+    margin: 8px !important;
+}
+.right-padding {
+    width: 50%;
+    padding: 5px !important;
+    margin: 8px !important;
+}
+
+.block {
+    display: block;
+}
+
+.treated_button {
+    padding: 5px;
+    font-size: 12px;
+    color: #7451f8;
+    background-color: rgba(117, 81, 248, 0.0941176471);
+    cursor: pointer;
+    border-radius: 0px 0px 0px 5px;
+    border: none;
+    margin: 0;
+}

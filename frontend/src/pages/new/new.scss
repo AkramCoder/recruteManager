@@ -1,0 +1,121 @@
+.new {
+    width: 100%;
+    display: flex;
+    }
+
+.newContainer {
+    flex: 6;
+}
+
+.newtop, .newbottom {
+    position: relative;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+
+    .back {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        padding: 5px;
+        font-size: 12px;
+        color: #7451f8;
+        background-color: #7551f818;
+        cursor: pointer;
+        border-radius: 0px 0px 0px 5px;
+    }
+}
+.newtitle {
+    color: lightgray;
+    font-size: 20px;
+    margin:0 50px 50px 50px;
+}
+
+           
+
+
+.imgform {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin:40px;
+}
+.newright {
+    flex: 1;
+}
+
+.newright h2 {
+    text-align: center;
+    margin-top: 72px;
+}
+
+.newleft {
+    flex: 2;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+
+    input {
+        width: 100%;
+        padding: 5px;
+        border: none;
+        border-bottom: 1px solid gray;
+    }
+}
+
+.newformInput {
+   width: 65%;
+   margin-top: 30px;
+
+}
+label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+                }
+.icon {
+    cursor: pointer;
+}
+
+.newinput {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+     
+.newbutton {
+        width: 150px;
+        padding: 10px;
+        border: none;
+        background-color: teal;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 10px;
+}
+
+.alert {
+    margin:20px 20px 0 20px;
+}
+
+.inputDiv {
+    margin-bottom: 24px;
+}
+
+.inputDiv label{
+    font-size: 16px;
+    display: block;
+}
+
+.inputDivSelect {
+    padding: 6px;
+}
